@@ -1,0 +1,874 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0CD26F75E4DE0792341DCD57 /* Pods_PCTT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A03BA6C8FBF6A0859CCBEE7 /* Pods_PCTT.framework */; };
+		FC18571E22FFED6000DB818C /* PC_ForeCast_7_Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC18571C22FFED6000DB818C /* PC_ForeCast_7_Cell.swift */; };
+		FC18571F22FFED6000DB818C /* PC_ForeCast_7_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC18571D22FFED6000DB818C /* PC_ForeCast_7_Cell.xib */; };
+		FC18572122FFEF1700DB818C /* PC_Weather_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC18572022FFEF1700DB818C /* PC_Weather_Cell.xib */; };
+		FC193A9E22FCB5EF00CDF719 /* PC_ForCast_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC193A9C22FCB5EF00CDF719 /* PC_ForCast_ViewController.swift */; };
+		FC193A9F22FCB5EF00CDF719 /* PC_ForCast_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC193A9D22FCB5EF00CDF719 /* PC_ForCast_ViewController.xib */; };
+		FC1A516622FE8EE200298B28 /* PC_ForeCast_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1A516522FE8EE200298B28 /* PC_ForeCast_Cell.xib */; };
+		FC1AA23B22F879E300C09E02 /* PC_Main_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1AA23A22F879E300C09E02 /* PC_Main_Cell.xib */; };
+		FC1B306922F6AF13002E873F /* PC_Forgot_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B306722F6AF13002E873F /* PC_Forgot_ViewController.swift */; };
+		FC1B306A22F6AF13002E873F /* PC_Forgot_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1B306822F6AF13002E873F /* PC_Forgot_ViewController.xib */; };
+		FC1B306C22F6E50D002E873F /* Information.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B306B22F6E50D002E873F /* Information.swift */; };
+		FC1B307022F6EEF6002E873F /* PC_Main_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B306E22F6EEF6002E873F /* PC_Main_ViewController.swift */; };
+		FC1B307122F6EEF6002E873F /* PC_Main_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1B306F22F6EEF6002E873F /* PC_Main_ViewController.xib */; };
+		FC1B307422F71C24002E873F /* PC_Setting_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B307222F71C23002E873F /* PC_Setting_ViewController.swift */; };
+		FC1B307522F71C24002E873F /* PC_Setting_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1B307322F71C24002E873F /* PC_Setting_ViewController.xib */; };
+		FC1B307722F724C0002E873F /* PC_Setting_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1B307622F724C0002E873F /* PC_Setting_Cell.xib */; };
+		FC1B307A22F73F3D002E873F /* PC_ChangePass_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC1B307822F73F3D002E873F /* PC_ChangePass_ViewController.swift */; };
+		FC1B307B22F73F3E002E873F /* PC_ChangePass_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC1B307922F73F3D002E873F /* PC_ChangePass_ViewController.xib */; };
+		FC1B9B3922FBCBBC00E65F58 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = FC1B9B3822FBCBBC00E65F58 /* GoogleService-Info.plist */; };
+		FC207BDF22F5D1330084DC88 /* Marcro.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC207BDE22F5D1330084DC88 /* Marcro.swift */; };
+		FC230EE722FD1A410082B989 /* custom_info_bubble.9.png in Resources */ = {isa = PBXBuildFile; fileRef = FC230EE622FD1A410082B989 /* custom_info_bubble.9.png */; };
+		FC24BE5622FC150C00F1D70C /* PC_Marker_View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC24BE5522FC150C00F1D70C /* PC_Marker_View.xib */; };
+		FC250D04230103F4008AB980 /* PC_Global_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC250D02230103F4008AB980 /* PC_Global_ViewController.swift */; };
+		FC250D05230103F4008AB980 /* PC_Global_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC250D03230103F4008AB980 /* PC_Global_ViewController.xib */; };
+		FC31018E23195B7F009DBF95 /* EM_MenuView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC31018B23195B7F009DBF95 /* EM_MenuView.m */; };
+		FC31018F23195B7F009DBF95 /* EM_Menu.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC31018D23195B7F009DBF95 /* EM_Menu.xib */; };
+		FC5D982422F54134006FA3F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D982322F54134006FA3F1 /* AppDelegate.swift */; };
+		FC5D982622F54134006FA3F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D982522F54134006FA3F1 /* ViewController.swift */; };
+		FC5D982922F54134006FA3F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5D982722F54134006FA3F1 /* Main.storyboard */; };
+		FC5D982B22F54137006FA3F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC5D982A22F54137006FA3F1 /* Assets.xcassets */; };
+		FC5D982E22F54137006FA3F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC5D982C22F54137006FA3F1 /* LaunchScreen.storyboard */; };
+		FC5D983822F55513006FA3F1 /* PC_Login_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC5D983622F55513006FA3F1 /* PC_Login_ViewController.swift */; };
+		FC5D983922F55513006FA3F1 /* PC_Login_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC5D983722F55513006FA3F1 /* PC_Login_ViewController.xib */; };
+		FC69937522FB4A8200C62D42 /* PC_Station_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC69937322FB4A8200C62D42 /* PC_Station_ViewController.swift */; };
+		FC69937622FB4A8200C62D42 /* PC_Station_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC69937422FB4A8200C62D42 /* PC_Station_ViewController.xib */; };
+		FC69937822FB503F00C62D42 /* PC_Station_Cell0.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC69937722FB503F00C62D42 /* PC_Station_Cell0.xib */; };
+		FC807AAE23309B5D006E6F7C /* PC_Station_Cell1.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC807AA823309B5B006E6F7C /* PC_Station_Cell1.xib */; };
+		FC807AAF23309B5D006E6F7C /* PC_Station_Cell3.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC807AA923309B5B006E6F7C /* PC_Station_Cell3.xib */; };
+		FC807AB023309B5D006E6F7C /* PC_Station_Cell5.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC807AAA23309B5B006E6F7C /* PC_Station_Cell5.xib */; };
+		FC807AB123309B5D006E6F7C /* PC_Station_Cell4.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC807AAB23309B5C006E6F7C /* PC_Station_Cell4.xib */; };
+		FC807AB223309B5D006E6F7C /* PC_Station_Cell2.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC807AAC23309B5C006E6F7C /* PC_Station_Cell2.xib */; };
+		FC807AB323309B5D006E6F7C /* PC_Station_Cell6.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC807AAD23309B5D006E6F7C /* PC_Station_Cell6.xib */; };
+		FC8F4AEF230FE9420082F3B2 /* PC_FeedBack_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC8F4AED230FE9420082F3B2 /* PC_FeedBack_ViewController.swift */; };
+		FC8F4AF0230FE9420082F3B2 /* PC_FeedBack_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8F4AEE230FE9420082F3B2 /* PC_FeedBack_ViewController.xib */; };
+		FC8F4AF2230FEE9F0082F3B2 /* PC_FeedBack_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FC8F4AF1230FEE9F0082F3B2 /* PC_FeedBack_Cell.xib */; };
+		FCB19455231598DA007120AF /* ChatAccessory.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB19451231598DA007120AF /* ChatAccessory.swift */; };
+		FCB19456231598DA007120AF /* ChatAccessory.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCB19452231598DA007120AF /* ChatAccessory.xib */; };
+		FCB19457231598DA007120AF /* ChatTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCB19453231598DA007120AF /* ChatTable.swift */; };
+		FCC73DBF2305B59F004E87CA /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCC73DBE2305B59F004E87CA /* NotificationService.swift */; };
+		FCC73DC32305B59F004E87CA /* NotificationService.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FCC73DBC2305B59E004E87CA /* NotificationService.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCEDD7E022F9E19500DC4613 /* PC_Notification_ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCEDD7DE22F9E19500DC4613 /* PC_Notification_ViewController.swift */; };
+		FCEDD7E122F9E19500DC4613 /* PC_Notification_ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEDD7DF22F9E19500DC4613 /* PC_Notification_ViewController.xib */; };
+		FCEDD7E322F9F00400DC4613 /* PC_Notification_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCEDD7E222F9F00400DC4613 /* PC_Notification_Cell.xib */; };
+		FCFF18D02328ACF1001DF8A2 /* TG_Empty_Cell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FCFF18CF2328ACF1001DF8A2 /* TG_Empty_Cell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FCC73DC12305B59F004E87CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC5D981822F54134006FA3F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCC73DBB2305B59E004E87CA;
+			remoteInfo = NotificationService;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCC73DB42305AF38004E87CA /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCC73DC32305B59F004E87CA /* NotificationService.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		47999EB32B29DC28F0C17E82 /* Pods-PCTT.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCTT.release.xcconfig"; path = "Pods/Target Support Files/Pods-PCTT/Pods-PCTT.release.xcconfig"; sourceTree = "<group>"; };
+		518A05DE2FA4D23E8FEE427D /* Pods-PCTT.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PCTT.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PCTT/Pods-PCTT.debug.xcconfig"; sourceTree = "<group>"; };
+		9A03BA6C8FBF6A0859CCBEE7 /* Pods_PCTT.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PCTT.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC18571C22FFED6000DB818C /* PC_ForeCast_7_Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_ForeCast_7_Cell.swift; sourceTree = "<group>"; };
+		FC18571D22FFED6000DB818C /* PC_ForeCast_7_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_ForeCast_7_Cell.xib; sourceTree = "<group>"; };
+		FC18572022FFEF1700DB818C /* PC_Weather_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Weather_Cell.xib; sourceTree = "<group>"; };
+		FC193A9C22FCB5EF00CDF719 /* PC_ForCast_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_ForCast_ViewController.swift; sourceTree = "<group>"; };
+		FC193A9D22FCB5EF00CDF719 /* PC_ForCast_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_ForCast_ViewController.xib; sourceTree = "<group>"; };
+		FC1A516522FE8EE200298B28 /* PC_ForeCast_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_ForeCast_Cell.xib; sourceTree = "<group>"; };
+		FC1AA23A22F879E300C09E02 /* PC_Main_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Main_Cell.xib; sourceTree = "<group>"; };
+		FC1B306722F6AF13002E873F /* PC_Forgot_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_Forgot_ViewController.swift; sourceTree = "<group>"; };
+		FC1B306822F6AF13002E873F /* PC_Forgot_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Forgot_ViewController.xib; sourceTree = "<group>"; };
+		FC1B306B22F6E50D002E873F /* Information.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Information.swift; sourceTree = "<group>"; };
+		FC1B306E22F6EEF6002E873F /* PC_Main_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_Main_ViewController.swift; sourceTree = "<group>"; };
+		FC1B306F22F6EEF6002E873F /* PC_Main_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Main_ViewController.xib; sourceTree = "<group>"; };
+		FC1B307222F71C23002E873F /* PC_Setting_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_Setting_ViewController.swift; sourceTree = "<group>"; };
+		FC1B307322F71C24002E873F /* PC_Setting_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Setting_ViewController.xib; sourceTree = "<group>"; };
+		FC1B307622F724C0002E873F /* PC_Setting_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Setting_Cell.xib; sourceTree = "<group>"; };
+		FC1B307822F73F3D002E873F /* PC_ChangePass_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_ChangePass_ViewController.swift; sourceTree = "<group>"; };
+		FC1B307922F73F3D002E873F /* PC_ChangePass_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_ChangePass_ViewController.xib; sourceTree = "<group>"; };
+		FC1B9B3722FBCA3100E65F58 /* PCTT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PCTT.entitlements; sourceTree = "<group>"; };
+		FC1B9B3822FBCBBC00E65F58 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		FC207BDE22F5D1330084DC88 /* Marcro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Marcro.swift; sourceTree = "<group>"; };
+		FC207BE022F5D1450084DC88 /* PCTT-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PCTT-Bridging-Header.h"; sourceTree = "<group>"; };
+		FC230EE622FD1A410082B989 /* custom_info_bubble.9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = custom_info_bubble.9.png; sourceTree = "<group>"; };
+		FC24BE5522FC150C00F1D70C /* PC_Marker_View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Marker_View.xib; sourceTree = "<group>"; };
+		FC250D02230103F4008AB980 /* PC_Global_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_Global_ViewController.swift; sourceTree = "<group>"; };
+		FC250D03230103F4008AB980 /* PC_Global_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Global_ViewController.xib; sourceTree = "<group>"; };
+		FC31018B23195B7F009DBF95 /* EM_MenuView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EM_MenuView.m; sourceTree = "<group>"; };
+		FC31018C23195B7F009DBF95 /* EM_MenuView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EM_MenuView.h; sourceTree = "<group>"; };
+		FC31018D23195B7F009DBF95 /* EM_Menu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EM_Menu.xib; sourceTree = "<group>"; };
+		FC5D982022F54134006FA3F1 /* PCTT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PCTT.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC5D982322F54134006FA3F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FC5D982522F54134006FA3F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FC5D982822F54134006FA3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC5D982A22F54137006FA3F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FC5D982D22F54137006FA3F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FC5D982F22F54137006FA3F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FC5D983622F55513006FA3F1 /* PC_Login_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_Login_ViewController.swift; sourceTree = "<group>"; };
+		FC5D983722F55513006FA3F1 /* PC_Login_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Login_ViewController.xib; sourceTree = "<group>"; };
+		FC69937322FB4A8200C62D42 /* PC_Station_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_Station_ViewController.swift; sourceTree = "<group>"; };
+		FC69937422FB4A8200C62D42 /* PC_Station_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Station_ViewController.xib; sourceTree = "<group>"; };
+		FC69937722FB503F00C62D42 /* PC_Station_Cell0.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Station_Cell0.xib; sourceTree = "<group>"; };
+		FC807AA823309B5B006E6F7C /* PC_Station_Cell1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PC_Station_Cell1.xib; sourceTree = "<group>"; };
+		FC807AA923309B5B006E6F7C /* PC_Station_Cell3.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PC_Station_Cell3.xib; sourceTree = "<group>"; };
+		FC807AAA23309B5B006E6F7C /* PC_Station_Cell5.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PC_Station_Cell5.xib; sourceTree = "<group>"; };
+		FC807AAB23309B5C006E6F7C /* PC_Station_Cell4.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PC_Station_Cell4.xib; sourceTree = "<group>"; };
+		FC807AAC23309B5C006E6F7C /* PC_Station_Cell2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PC_Station_Cell2.xib; sourceTree = "<group>"; };
+		FC807AAD23309B5D006E6F7C /* PC_Station_Cell6.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PC_Station_Cell6.xib; sourceTree = "<group>"; };
+		FC8F4AED230FE9420082F3B2 /* PC_FeedBack_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_FeedBack_ViewController.swift; sourceTree = "<group>"; };
+		FC8F4AEE230FE9420082F3B2 /* PC_FeedBack_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_FeedBack_ViewController.xib; sourceTree = "<group>"; };
+		FC8F4AF1230FEE9F0082F3B2 /* PC_FeedBack_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_FeedBack_Cell.xib; sourceTree = "<group>"; };
+		FCB19451231598DA007120AF /* ChatAccessory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatAccessory.swift; sourceTree = "<group>"; };
+		FCB19452231598DA007120AF /* ChatAccessory.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ChatAccessory.xib; sourceTree = "<group>"; };
+		FCB19453231598DA007120AF /* ChatTable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatTable.swift; sourceTree = "<group>"; };
+		FCC73DBC2305B59E004E87CA /* NotificationService.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationService.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCC73DBE2305B59F004E87CA /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		FCC73DC02305B59F004E87CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FCEDD7DE22F9E19500DC4613 /* PC_Notification_ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PC_Notification_ViewController.swift; sourceTree = "<group>"; };
+		FCEDD7DF22F9E19500DC4613 /* PC_Notification_ViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Notification_ViewController.xib; sourceTree = "<group>"; };
+		FCEDD7E222F9F00400DC4613 /* PC_Notification_Cell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PC_Notification_Cell.xib; sourceTree = "<group>"; };
+		FCFF18CF2328ACF1001DF8A2 /* TG_Empty_Cell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TG_Empty_Cell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC5D981D22F54134006FA3F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0CD26F75E4DE0792341DCD57 /* Pods_PCTT.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC73DB92305B59E004E87CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		997F3605544F4080ACA42FDD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				518A05DE2FA4D23E8FEE427D /* Pods-PCTT.debug.xcconfig */,
+				47999EB32B29DC28F0C17E82 /* Pods-PCTT.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E78C415BAAF8D208F5B2D7EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9A03BA6C8FBF6A0859CCBEE7 /* Pods_PCTT.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC1B306622F6AEE2002E873F /* AUTH */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D983622F55513006FA3F1 /* PC_Login_ViewController.swift */,
+				FC5D983722F55513006FA3F1 /* PC_Login_ViewController.xib */,
+				FC1B306722F6AF13002E873F /* PC_Forgot_ViewController.swift */,
+				FC1B306822F6AF13002E873F /* PC_Forgot_ViewController.xib */,
+			);
+			path = AUTH;
+			sourceTree = "<group>";
+		};
+		FC1B306D22F6ED05002E873F /* MAIN */ = {
+			isa = PBXGroup;
+			children = (
+				FCFF18CF2328ACF1001DF8A2 /* TG_Empty_Cell.xib */,
+				FC1B306E22F6EEF6002E873F /* PC_Main_ViewController.swift */,
+				FC1B306F22F6EEF6002E873F /* PC_Main_ViewController.xib */,
+				FC1AA23A22F879E300C09E02 /* PC_Main_Cell.xib */,
+				FC1B307222F71C23002E873F /* PC_Setting_ViewController.swift */,
+				FC1B307322F71C24002E873F /* PC_Setting_ViewController.xib */,
+				FC1B307622F724C0002E873F /* PC_Setting_Cell.xib */,
+				FC1B307822F73F3D002E873F /* PC_ChangePass_ViewController.swift */,
+				FC1B307922F73F3D002E873F /* PC_ChangePass_ViewController.xib */,
+				FCEDD7DE22F9E19500DC4613 /* PC_Notification_ViewController.swift */,
+				FCEDD7DF22F9E19500DC4613 /* PC_Notification_ViewController.xib */,
+				FCEDD7E222F9F00400DC4613 /* PC_Notification_Cell.xib */,
+				FC69937322FB4A8200C62D42 /* PC_Station_ViewController.swift */,
+				FC69937422FB4A8200C62D42 /* PC_Station_ViewController.xib */,
+				FC69937722FB503F00C62D42 /* PC_Station_Cell0.xib */,
+				FC807AA823309B5B006E6F7C /* PC_Station_Cell1.xib */,
+				FC807AAC23309B5C006E6F7C /* PC_Station_Cell2.xib */,
+				FC807AA923309B5B006E6F7C /* PC_Station_Cell3.xib */,
+				FC807AAB23309B5C006E6F7C /* PC_Station_Cell4.xib */,
+				FC807AAA23309B5B006E6F7C /* PC_Station_Cell5.xib */,
+				FC807AAD23309B5D006E6F7C /* PC_Station_Cell6.xib */,
+				FC24BE5522FC150C00F1D70C /* PC_Marker_View.xib */,
+				FC193A9C22FCB5EF00CDF719 /* PC_ForCast_ViewController.swift */,
+				FC193A9D22FCB5EF00CDF719 /* PC_ForCast_ViewController.xib */,
+				FC1A516522FE8EE200298B28 /* PC_ForeCast_Cell.xib */,
+				FC18571C22FFED6000DB818C /* PC_ForeCast_7_Cell.swift */,
+				FC18571D22FFED6000DB818C /* PC_ForeCast_7_Cell.xib */,
+				FC18572022FFEF1700DB818C /* PC_Weather_Cell.xib */,
+				FC250D02230103F4008AB980 /* PC_Global_ViewController.swift */,
+				FC250D03230103F4008AB980 /* PC_Global_ViewController.xib */,
+			);
+			path = MAIN;
+			sourceTree = "<group>";
+		};
+		FC5D981722F54134006FA3F1 = {
+			isa = PBXGroup;
+			children = (
+				FC5D982222F54134006FA3F1 /* PCTT */,
+				FCC73DBD2305B59F004E87CA /* NotificationService */,
+				FC5D982122F54134006FA3F1 /* Products */,
+				997F3605544F4080ACA42FDD /* Pods */,
+				E78C415BAAF8D208F5B2D7EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FC5D982122F54134006FA3F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC5D982022F54134006FA3F1 /* PCTT.app */,
+				FCC73DBC2305B59E004E87CA /* NotificationService.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC5D982222F54134006FA3F1 /* PCTT */ = {
+			isa = PBXGroup;
+			children = (
+				FC1B9B3722FBCA3100E65F58 /* PCTT.entitlements */,
+				FC1B9B3822FBCBBC00E65F58 /* GoogleService-Info.plist */,
+				FC5D983522F554EB006FA3F1 /* CONTROLLER */,
+				FC5D982322F54134006FA3F1 /* AppDelegate.swift */,
+				FC5D982522F54134006FA3F1 /* ViewController.swift */,
+				FC207BDE22F5D1330084DC88 /* Marcro.swift */,
+				FC5D982722F54134006FA3F1 /* Main.storyboard */,
+				FC5D982A22F54137006FA3F1 /* Assets.xcassets */,
+				FC230EE622FD1A410082B989 /* custom_info_bubble.9.png */,
+				FC5D982C22F54137006FA3F1 /* LaunchScreen.storyboard */,
+				FC207BE022F5D1450084DC88 /* PCTT-Bridging-Header.h */,
+				FC5D982F22F54137006FA3F1 /* Info.plist */,
+				FC1B306B22F6E50D002E873F /* Information.swift */,
+			);
+			path = PCTT;
+			sourceTree = "<group>";
+		};
+		FC5D983522F554EB006FA3F1 /* CONTROLLER */ = {
+			isa = PBXGroup;
+			children = (
+				FCB19450231597E3007120AF /* FEEDBACK */,
+				FC1B306D22F6ED05002E873F /* MAIN */,
+				FC1B306622F6AEE2002E873F /* AUTH */,
+			);
+			path = CONTROLLER;
+			sourceTree = "<group>";
+		};
+		FCB19450231597E3007120AF /* FEEDBACK */ = {
+			isa = PBXGroup;
+			children = (
+				FCB19451231598DA007120AF /* ChatAccessory.swift */,
+				FCB19452231598DA007120AF /* ChatAccessory.xib */,
+				FCB19453231598DA007120AF /* ChatTable.swift */,
+				FC8F4AED230FE9420082F3B2 /* PC_FeedBack_ViewController.swift */,
+				FC8F4AEE230FE9420082F3B2 /* PC_FeedBack_ViewController.xib */,
+				FC8F4AF1230FEE9F0082F3B2 /* PC_FeedBack_Cell.xib */,
+				FC31018D23195B7F009DBF95 /* EM_Menu.xib */,
+				FC31018C23195B7F009DBF95 /* EM_MenuView.h */,
+				FC31018B23195B7F009DBF95 /* EM_MenuView.m */,
+			);
+			path = FEEDBACK;
+			sourceTree = "<group>";
+		};
+		FCC73DBD2305B59F004E87CA /* NotificationService */ = {
+			isa = PBXGroup;
+			children = (
+				FCC73DBE2305B59F004E87CA /* NotificationService.swift */,
+				FCC73DC02305B59F004E87CA /* Info.plist */,
+			);
+			path = NotificationService;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC5D981F22F54134006FA3F1 /* PCTT */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC5D983222F54137006FA3F1 /* Build configuration list for PBXNativeTarget "PCTT" */;
+			buildPhases = (
+				AB83547809B9280EF429ABDC /* [CP] Check Pods Manifest.lock */,
+				FC5D981C22F54134006FA3F1 /* Sources */,
+				FC5D981D22F54134006FA3F1 /* Frameworks */,
+				FC5D981E22F54134006FA3F1 /* Resources */,
+				FCC73DB42305AF38004E87CA /* Embed App Extensions */,
+				91B3D1A4DE36F766EBD552B4 /* [CP] Embed Pods Frameworks */,
+				DF99F49DB480E2E544D37D4B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FCC73DC22305B59F004E87CA /* PBXTargetDependency */,
+			);
+			name = PCTT;
+			productName = PCTT;
+			productReference = FC5D982022F54134006FA3F1 /* PCTT.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FCC73DBB2305B59E004E87CA /* NotificationService */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCC73DC42305B59F004E87CA /* Build configuration list for PBXNativeTarget "NotificationService" */;
+			buildPhases = (
+				FCC73DB82305B59E004E87CA /* Sources */,
+				FCC73DB92305B59E004E87CA /* Frameworks */,
+				FCC73DBA2305B59E004E87CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationService;
+			productName = NotificationService;
+			productReference = FCC73DBC2305B59E004E87CA /* NotificationService.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC5D981822F54134006FA3F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Thanh Hai Tran";
+				TargetAttributes = {
+					FC5D981F22F54134006FA3F1 = {
+						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					FCC73DBB2305B59E004E87CA = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = FC5D981B22F54134006FA3F1 /* Build configuration list for PBXProject "PCTT" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC5D981722F54134006FA3F1;
+			productRefGroup = FC5D982122F54134006FA3F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC5D981F22F54134006FA3F1 /* PCTT */,
+				FCC73DBB2305B59E004E87CA /* NotificationService */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC5D981E22F54134006FA3F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC69937622FB4A8200C62D42 /* PC_Station_ViewController.xib in Resources */,
+				FC807AAE23309B5D006E6F7C /* PC_Station_Cell1.xib in Resources */,
+				FC24BE5622FC150C00F1D70C /* PC_Marker_View.xib in Resources */,
+				FC807AB123309B5D006E6F7C /* PC_Station_Cell4.xib in Resources */,
+				FCFF18D02328ACF1001DF8A2 /* TG_Empty_Cell.xib in Resources */,
+				FC1B307122F6EEF6002E873F /* PC_Main_ViewController.xib in Resources */,
+				FC1B9B3922FBCBBC00E65F58 /* GoogleService-Info.plist in Resources */,
+				FC250D05230103F4008AB980 /* PC_Global_ViewController.xib in Resources */,
+				FC1B306A22F6AF13002E873F /* PC_Forgot_ViewController.xib in Resources */,
+				FC18571F22FFED6000DB818C /* PC_ForeCast_7_Cell.xib in Resources */,
+				FC807AB223309B5D006E6F7C /* PC_Station_Cell2.xib in Resources */,
+				FC5D982E22F54137006FA3F1 /* LaunchScreen.storyboard in Resources */,
+				FC8F4AF2230FEE9F0082F3B2 /* PC_FeedBack_Cell.xib in Resources */,
+				FCEDD7E122F9E19500DC4613 /* PC_Notification_ViewController.xib in Resources */,
+				FC69937822FB503F00C62D42 /* PC_Station_Cell0.xib in Resources */,
+				FC807AB323309B5D006E6F7C /* PC_Station_Cell6.xib in Resources */,
+				FCB19456231598DA007120AF /* ChatAccessory.xib in Resources */,
+				FC1B307722F724C0002E873F /* PC_Setting_Cell.xib in Resources */,
+				FC5D983922F55513006FA3F1 /* PC_Login_ViewController.xib in Resources */,
+				FC1AA23B22F879E300C09E02 /* PC_Main_Cell.xib in Resources */,
+				FC5D982B22F54137006FA3F1 /* Assets.xcassets in Resources */,
+				FC1A516622FE8EE200298B28 /* PC_ForeCast_Cell.xib in Resources */,
+				FC5D982922F54134006FA3F1 /* Main.storyboard in Resources */,
+				FC193A9F22FCB5EF00CDF719 /* PC_ForCast_ViewController.xib in Resources */,
+				FC807AB023309B5D006E6F7C /* PC_Station_Cell5.xib in Resources */,
+				FCEDD7E322F9F00400DC4613 /* PC_Notification_Cell.xib in Resources */,
+				FC1B307B22F73F3E002E873F /* PC_ChangePass_ViewController.xib in Resources */,
+				FC807AAF23309B5D006E6F7C /* PC_Station_Cell3.xib in Resources */,
+				FC8F4AF0230FE9420082F3B2 /* PC_FeedBack_ViewController.xib in Resources */,
+				FC1B307522F71C24002E873F /* PC_Setting_ViewController.xib in Resources */,
+				FC230EE722FD1A410082B989 /* custom_info_bubble.9.png in Resources */,
+				FC31018F23195B7F009DBF95 /* EM_Menu.xib in Resources */,
+				FC18572122FFEF1700DB818C /* PC_Weather_Cell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC73DBA2305B59E004E87CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		91B3D1A4DE36F766EBD552B4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PCTT/Pods-PCTT-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework",
+				"${BUILT_PRODUCTS_DIR}/AVHexColor/AVHexColor.framework",
+				"${BUILT_PRODUCTS_DIR}/AllPod/AllPod.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/ImageScrollView/ImageScrollView.framework",
+				"${BUILT_PRODUCTS_DIR}/JSONKit-NoWarning/JSONKit_NoWarning.framework",
+				"${BUILT_PRODUCTS_DIR}/MarqueeLabel/MarqueeLabel.framework",
+				"${BUILT_PRODUCTS_DIR}/PHFDelegateChain/PHFDelegateChain.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/Reachability/Reachability.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SkeletonView/SkeletonView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwipyCell/SwipyCell.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast/Toast.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AFNetworking.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AVHexColor.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AllPod.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ImageScrollView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/JSONKit_NoWarning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MarqueeLabel.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/PHFDelegateChain.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Reachability.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SkeletonView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwipyCell.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCTT/Pods-PCTT-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB83547809B9280EF429ABDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-PCTT-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DF99F49DB480E2E544D37D4B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-PCTT/Pods-PCTT-resources.sh",
+				"${PODS_ROOT}/GoogleMaps/Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleMaps.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PCTT/Pods-PCTT-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC5D981C22F54134006FA3F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCEDD7E022F9E19500DC4613 /* PC_Notification_ViewController.swift in Sources */,
+				FC18571E22FFED6000DB818C /* PC_ForeCast_7_Cell.swift in Sources */,
+				FCB19457231598DA007120AF /* ChatTable.swift in Sources */,
+				FC1B307422F71C24002E873F /* PC_Setting_ViewController.swift in Sources */,
+				FC1B306C22F6E50D002E873F /* Information.swift in Sources */,
+				FC5D983822F55513006FA3F1 /* PC_Login_ViewController.swift in Sources */,
+				FC5D982622F54134006FA3F1 /* ViewController.swift in Sources */,
+				FC31018E23195B7F009DBF95 /* EM_MenuView.m in Sources */,
+				FC193A9E22FCB5EF00CDF719 /* PC_ForCast_ViewController.swift in Sources */,
+				FCB19455231598DA007120AF /* ChatAccessory.swift in Sources */,
+				FC5D982422F54134006FA3F1 /* AppDelegate.swift in Sources */,
+				FC207BDF22F5D1330084DC88 /* Marcro.swift in Sources */,
+				FC69937522FB4A8200C62D42 /* PC_Station_ViewController.swift in Sources */,
+				FC250D04230103F4008AB980 /* PC_Global_ViewController.swift in Sources */,
+				FC1B306922F6AF13002E873F /* PC_Forgot_ViewController.swift in Sources */,
+				FC8F4AEF230FE9420082F3B2 /* PC_FeedBack_ViewController.swift in Sources */,
+				FC1B307022F6EEF6002E873F /* PC_Main_ViewController.swift in Sources */,
+				FC1B307A22F73F3D002E873F /* PC_ChangePass_ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCC73DB82305B59E004E87CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCC73DBF2305B59F004E87CA /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FCC73DC22305B59F004E87CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCC73DBB2305B59E004E87CA /* NotificationService */;
+			targetProxy = FCC73DC12305B59F004E87CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC5D982722F54134006FA3F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5D982822F54134006FA3F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC5D982C22F54137006FA3F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC5D982D22F54137006FA3F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC5D983022F54137006FA3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FC5D983122F54137006FA3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC5D983322F54137006FA3F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 518A05DE2FA4D23E8FEE427D /* Pods-PCTT.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PCTT/PCTT.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nguyen Ngoc Quang (589UWV5PGW)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7546H2CFFT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PCTT",
+				);
+				INFOPLIST_FILE = PCTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agri.weatherbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WeatherBook_dev;
+				SWIFT_OBJC_BRIDGING_HEADER = "PCTT/PCTT-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FC5D983422F54137006FA3F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47999EB32B29DC28F0C17E82 /* Pods-PCTT.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = PCTT/PCTT.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: AGRIMEDIA WEATHER AND AGRICULTURE SOLUTION JOINT STOCK COMPANY (7546H2CFFT)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7546H2CFFT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PCTT",
+				);
+				INFOPLIST_FILE = PCTT/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agri.weatherbook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WeatherBook_Dis;
+				SWIFT_OBJC_BRIDGING_HEADER = "PCTT/PCTT-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FCC73DC52305B59F004E87CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: Nguyen Ngoc Quang (589UWV5PGW)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = 7546H2CFFT;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PCTT",
+				);
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agri.weatherbook.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WeatherBook_dev_extension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCC73DC62305B59F004E87CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: AGRIMEDIA WEATHER AND AGRICULTURE SOLUTION JOINT STOCK COMPANY (7546H2CFFT)";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/PCTT",
+				);
+				INFOPLIST_FILE = NotificationService/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.agri.weatherbook.NotificationService;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = WeatherBook_dis_extension;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC5D981B22F54134006FA3F1 /* Build configuration list for PBXProject "PCTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5D983022F54137006FA3F1 /* Debug */,
+				FC5D983122F54137006FA3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC5D983222F54137006FA3F1 /* Build configuration list for PBXNativeTarget "PCTT" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC5D983322F54137006FA3F1 /* Debug */,
+				FC5D983422F54137006FA3F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FCC73DC42305B59F004E87CA /* Build configuration list for PBXNativeTarget "NotificationService" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCC73DC52305B59F004E87CA /* Debug */,
+				FCC73DC62305B59F004E87CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC5D981822F54134006FA3F1 /* Project object */;
+}

@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Rxm-hk-yDA">
+            <rect key="frame" x="0.0" y="0.0" width="119" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view tag="15" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kbe-NS-m6W">
+                    <rect key="frame" x="49.5" y="31" width="20" height="20"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="20" id="VVy-4J-UpH"/>
+                        <constraint firstAttribute="height" constant="20" id="l9N-ln-ak7"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PwL-Qg-x7z">
+                    <rect key="frame" x="0.0" y="0.0" width="119" height="45"/>
+                    <subviews>
+                        <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="11" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="uYn-o9-agC">
+                            <rect key="frame" x="8" y="8" width="30" height="30"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="30" id="HaW-e9-NoJ"/>
+                                <constraint firstAttribute="height" constant="30" id="jJD-IW-m9n"/>
+                            </constraints>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" tag="12" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="47m-9y-mCS">
+                            <rect key="frame" x="46" y="8" width="62" height="30"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="30" id="Ktr-J9-UBr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="47m-9y-mCS" secondAttribute="trailing" constant="11" id="A0N-O8-LIu"/>
+                        <constraint firstItem="uYn-o9-agC" firstAttribute="leading" secondItem="PwL-Qg-x7z" secondAttribute="leading" constant="8" id="Le2-Af-hrY"/>
+                        <constraint firstItem="47m-9y-mCS" firstAttribute="leading" secondItem="uYn-o9-agC" secondAttribute="trailing" constant="8" id="PMZ-n1-JVx"/>
+                        <constraint firstAttribute="height" constant="45" id="b8m-uc-urY"/>
+                        <constraint firstItem="47m-9y-mCS" firstAttribute="top" secondItem="PwL-Qg-x7z" secondAttribute="top" constant="8" id="hBf-nN-2im"/>
+                        <constraint firstItem="uYn-o9-agC" firstAttribute="top" secondItem="PwL-Qg-x7z" secondAttribute="top" constant="8" id="ifC-Ts-fNV"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="8"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <view tag="15" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="A1u-aC-p3A">
+                    <rect key="frame" x="50" y="43" width="19" height="2"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="19" id="3SX-Dc-xwL"/>
+                        <constraint firstAttribute="height" constant="2" id="mZ6-2E-tnQ"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.borderWidth">
+                            <integer key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="layer.borderUIColor">
+                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                            <integer key="value" value="0"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Kbe-NS-m6W" secondAttribute="bottom" constant="4" id="59Z-M8-OYn"/>
+                <constraint firstAttribute="bottom" secondItem="A1u-aC-p3A" secondAttribute="bottom" constant="10" id="9oD-dv-bRk"/>
+                <constraint firstItem="PwL-Qg-x7z" firstAttribute="leading" secondItem="GJv-wO-USY" secondAttribute="leading" id="GWr-HW-LY9"/>
+                <constraint firstItem="A1u-aC-p3A" firstAttribute="centerX" secondItem="Rxm-hk-yDA" secondAttribute="centerX" id="OzM-JA-gEb"/>
+                <constraint firstItem="Kbe-NS-m6W" firstAttribute="centerX" secondItem="Rxm-hk-yDA" secondAttribute="centerX" id="UfK-aH-GEb"/>
+                <constraint firstItem="PwL-Qg-x7z" firstAttribute="top" secondItem="Rxm-hk-yDA" secondAttribute="top" id="mki-hj-CUJ"/>
+                <constraint firstItem="PwL-Qg-x7z" firstAttribute="trailing" secondItem="GJv-wO-USY" secondAttribute="trailing" id="v8W-dK-1aj"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="GJv-wO-USY"/>
+            <point key="canvasLocation" x="-205.07246376811597" y="192.52232142857142"/>
+        </view>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="0yS-iw-4A2">
+            <rect key="frame" x="0.0" y="0.0" width="119" height="55"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DjL-tl-okx">
+                    <rect key="frame" x="0.0" y="0.0" width="119" height="55"/>
+                    <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="4ef-6d-Y7G"/>
+            <point key="canvasLocation" x="-618.1159420289855" y="263.50446428571428"/>
+        </view>
+    </objects>
+</document>
